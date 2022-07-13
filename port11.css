@@ -1,0 +1,132 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Lato:wght@300&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Lato:wght@300&family=Rubik+Moonrocks&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	/* box-sizzing:border-box */
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.sidebar {
+	/* background-color: red; */
+	background-color: rgb(217, 217, 217);
+	
+	height: 100vh;
+	
+}
+
+.sidebar nav {
+	padding: 40px;
+}
+
+.sidebar nav li {
+	list-style: none;
+	font-size: 25px;
+	padding: 25px 0px;
+}
+.sidebar nav li a{
+	text-decoration:none;
+	color:#121212;
+	padding:4px;
+	cursor:pointer;
+}
+.sidebar nav li a:hover
+{
+	background-color: black;
+	color: white;
+	border-radius:6px;
+	padding:4px;
+
+	transition: all 1.0s ease;
+}
+
+
+.main {
+	/* 	background-color: blue; */
+	width: 90vw;
+}
+
+.infocontainer {
+	/* background-color: orange; */
+	/* background-color: rgb(128, 255, 255); */
+	height: 55vh;
+	width: 75vw;
+	margin-left: 70px;
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.devInfo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.hello {
+	font-size: 65px;
+	font-family: 'Rubik Moonrocks', cursive;
+	text-shadow:2px 7px rgb(217,217,217);
+}
+
+.name {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.about {
+	font-size: 35px;
+}
+
+.moreabout {
+	font-size: 29px;
+}
+
+.highlight1 {
+	color: rgb(255, 103, 0);
+}
+
+.highlight2 {
+	color: rgb(255, 102, 153);
+}
+
+.btn {
+	margin-top: 30px;
+}
+
+.btn button {
+	margin: 0 3px;
+	padding: 10px 21px;
+	border-radius: 13px;
+	background-color: rgb(128, 255, 255);
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 1.0s ease;
+}
+
+.btn button:hover {
+	background-color: black;
+	color: #80ffff;
+}
+
+.devPic img {
+	height: 357px;
+	width: 250px;
+}
+
+.container {
+	display: flex;
+}
+/* .contactform{
+	
+} */
+.contactform h1{
+	text-align:center;
+}
